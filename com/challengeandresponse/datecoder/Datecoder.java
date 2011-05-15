@@ -62,7 +62,7 @@ public class Datecoder implements DatecoderI {
 	/**
 	 * Add a datecoder to the call stack at a given position.
 	 * @param datecoder the datecoder to add to the given position in the call stac
-	 * @param postion add the datecoder at 'position' in the stack. If position is > the size of the stack, the datecoder is added to the end
+	 * @param position add the datecoder at 'position' in the stack. If position is > the size of the stack, the datecoder is added to the end
 	 * @throws DatecoderException if position is < 0, or datecoder is null
 	 */
 	public void addDatecoder(DatecoderI datecoder, int position)
